@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const newElement= document.createElement('li');
     newElement.textContent=inputValue.value;
     inputDisplay.append(newElement);
+    //new code
     
     
   })
