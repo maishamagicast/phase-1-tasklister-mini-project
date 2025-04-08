@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const inputDisplay= document.getElementById('tasks');
   const form= document.getElementById('create-task-form');
 
-  form.addEventListener('submit',function(event){
+  form.addEventListener('submit',(event)=>{
     event.preventDefault();
     
     const newElement= document.createElement('li');
